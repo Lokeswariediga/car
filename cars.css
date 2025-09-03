@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-color:lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 200px;
+    width: 600px;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+    color: black;
+
+}
+.btn{
+    height: 30px;
+    width: 80px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family:'Times New Roman';
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
+
+}
+.car{
+    font-size: 25px;
+    font-family:'Times New Roman';
+    font-weight: 400;
+}
+.heading{
+    margin-bottom: 15px;
+}
